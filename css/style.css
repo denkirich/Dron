@@ -1,3 +1,8 @@
+body { 
+    background: rgba(28,30,32,.95);
+    font-family: Tahoma, Geneva, sans-serif; 
+    font-size: 11px;
+    }
 #footer_container{
 	float:left;
 	width:100%;	
@@ -10,13 +15,12 @@
 	color:#fff !important;
 	font-size:11px !important;
 	display:inline-block;
-	float:right;
-	margin:20px 135px 0 0px;
+	margin:0px 80px 0 400px;
 }
 
 /*footer menu*/
 #footer>ul{
-	margin:20px 0px 0 0px;
+	margin:20px 0px 0 280px;
 	float:left;
 }
 
@@ -44,4 +48,13 @@
 	color:#FFF;
 	line-height:20px;
 	text-decoration:none;
+}
+.center-clear,.center-clear-border-support{
+	width:990px;
+	margin:0 auto 0 auto !important;
+	position:relative !important;
+}
+
+.center-clear-border-support{
+	width:988px;
 }
