@@ -156,3 +156,186 @@ body {
 	height:3px;
 	float:left;
 }
+
+
+
+
+
+.clear,.clear10,.clear20,.clear30,.clear40,.clear50,.clear70{
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width:0;/*px !important;*/
+	height:0;
+	/*float:none !important;*/
+}
+
+.clear10{
+	height: 10px;	
+}
+.clear20{
+	height: 20px;	
+}
+
+.clear30{
+	height: 40px;	
+}
+
+.clear40{
+	height: 40px;	
+}
+
+.clear50{
+	height: 50px;	
+}
+
+.clear70{
+    height: 70px;
+}
+
+
+
+
+
+#page-content-wrapper{
+	float:left;
+	width:100%;	
+}
+
+.page-content-wrapper .page-content{
+	/*float:left;*/
+	min-height:600px;
+	min-width:630px;
+	padding:15px 19px 15px 19px;
+	border-top:none;	
+	background:#fff url(../images/background/arrow_down.png) no-repeat;	
+	
+	position:absolute;
+	left:320px;	
+}
+
+.page-content-wrapper .side_bar{
+	min-height:600px; /*temporary*/
+	border-top:none;
+	background:#fff;
+		
+	padding-bottom:30px;/*this line should fix two column same height issue that caused by page-content paddings*/
+}
+
+.page-content-wrapper .side_bar>*{
+	margin:10px 10px 0 10px;
+}
+
+.page-content p{
+	/*max-width:630px;/* !important;*/
+	width:630px;
+	margin-bottom:10px;/*you can disable this line as you wish. good looking in demo*/
+	height:auto !important;
+	overflow:visible !important;
+}
+
+
+
+
+
+#breadcrumb ul{
+	padding:25px 0 0 20px;
+}
+
+#breadcrumb ul>li{
+	display:block;
+	float:left;
+	background:url(../images/breadcrumb.png) no-repeat 0px -23px;
+	padding:0 5px 0 15px;
+}
+
+#breadcrumb ul>li:first-child{
+	background:url(../images/breadcrumb.png) no-repeat 0px 5px;	
+}
+
+#breadcrumb ul>li>a{
+	color:#32383f;
+	font-size:11px;
+	text-decoration:none;
+}
+
+#breadcrumb ul>li .active{
+	color:#e53400;
+	border-bottom:1px dotted #32383f;
+}
+
+
+
+
+.page-columns-head-style{
+	height:64px;
+	border-bottom:none;
+	background:#fff url(../images/orange_border.png) repeat-x bottom;
+}
+
+.gray-frame{
+	border:1px solid #e1e1e1;
+    width: 668px;
+    margin: auto;
+    background: #fff url(../images/orange_border.png) repeat-x bottom;
+}
+
+.page-column1,.page-column2{
+	width:308px;
+	/*margin:0 7px 0 0;*/
+	/*float:left !important;*/
+}
+.page-column2{
+	width:668px;
+	margin:auto;
+    
+    
+}
+
+
+
+
+
+
+.heading,.heading-with-left-margin{
+	font-family:'Terminal Dosis',Tahoma, Geneva, sans-serif;
+	text-decoration:none;
+	color:#32383f;
+	max-width:948px !important;
+	line-height:normal;
+}
+
+.heading-with-left-margin{
+	clear:both !important;
+	display:block !important;
+	margin:34px 0 5px 20px !important;
+	float:left;
+	width:288px;
+}
+
+.h1{
+	font-size:21px;
+	font-weight:600 !important;	
+	margin-bottom:17px;
+    margin-left: 270px;
+}
+
+.h2{
+	font-weight:600 !important;	
+	font-size:19px;
+	margin:15px 0 19px 10px;
+	position:relative;
+}
+
+.ab {
+    margin-left: 10px;
+}
+
+.inline-image{
+	margin:16px 0 22px 15px;
+}
+
+.q {
+    font-size: 13px;
+}
